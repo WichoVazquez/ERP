@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `almacen`
 --
-
+DROP TABLE IF EXISTS `almacen`;
 CREATE TABLE `almacen` (
   `almacen_id` bigint(20) NOT NULL,
   `nombre` varchar(200) CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL,
