@@ -169,7 +169,7 @@ $inicio_orden_sumario=1;
   if($array!=null)
   { 
     
-       echo "<option value='0'>Seleccione Operadorr</option>";
+       echo "<option value='0'>Seleccione Operador</option>";
     $cont=0;
     for($renglones=0; $renglones<count($array);$renglones++)
     {

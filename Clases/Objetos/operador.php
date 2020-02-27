@@ -1,4 +1,4 @@
-h<?php
+<?php
       class Operador
 	{
 	  private $link;	
@@ -14,7 +14,7 @@ h<?php
 	  {   
 	  	  $id=0;
           $sql = "
-		  insert into Operador
+		  insert into operador
 		  (nombre,
 		   apellido_p,
 		   apellido_m,
@@ -107,7 +107,7 @@ h<?php
 	  function ObtieneOperador()
           {
 		  
-		 $sql="SELECT operador_id, nombre, apellido_p, apellido_m, permiso, licencia_no, vigencia from OPERADOR";
+		 $sql="SELECT operador_id, nombre, apellido_p, apellido_m, permiso, licencia_no, vigencia from operador";
 		 
 		//  $sql=$sql." LIMIT $inicio, $fin";
 		  $res=mysql_query($sql);

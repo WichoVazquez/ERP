@@ -444,7 +444,7 @@ echo "perfil:".$perfil;*/
 </table>
 </DIV>
 
-<BUTTON id="enviar_transporte" disabled="disabled">SOLICITAR TRANSPORTES</BUTTON> 
+<BUTTON id="enviar_transporte" >SOLICITAR TRANSPORTES</BUTTON> 
 <BUTTON id="enviar-autorizacion">AUTORIZAR PARA PRODUCCION</BUTTON> 
  <BUTTON id="generar_orden_compra">GENERAR REQUISICIÓN DE COMPRAS</BUTTON> 
 
